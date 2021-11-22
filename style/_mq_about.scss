@@ -1,0 +1,17 @@
+// mq about
+@media (max-width: 767px) {
+  #about {
+    #about_content {
+      flex-direction: column-reverse;
+      #about_content_two {
+        padding: 2rem;
+        h3 {
+          font-size: 2rem;
+        }
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}

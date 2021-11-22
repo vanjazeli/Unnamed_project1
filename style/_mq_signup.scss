@@ -1,0 +1,17 @@
+// mq signup
+@media (max-width: 767px) {
+  #signup {
+    #signup_content {
+      flex-direction: column-reverse;
+      #signup_content_two {
+        padding: 2rem;
+        h3 {
+          font-size: 2rem;
+        }
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}

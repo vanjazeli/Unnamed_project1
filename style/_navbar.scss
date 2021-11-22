@@ -1,0 +1,26 @@
+// navbar
+#navbar {
+  height: 80px;
+  padding: 2rem;
+  position: relative;
+  z-index: 100;
+  transform: translateY(-80px);
+  opacity: 0;
+  .main_container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    #navbar_middle {
+      display: none;
+      #bars {
+        cursor: pointer;
+      }
+    }
+    #navbar_right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

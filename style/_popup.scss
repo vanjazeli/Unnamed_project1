@@ -1,0 +1,26 @@
+// popup menu
+#popup {
+  position: absolute;
+  z-index: 99;
+  top: -1000px;
+  left: 0;
+  width: 100vw;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-top: 0;
+  transition: top 300ms ease-in-out;
+  border-bottom: 3px solid $primary_color;
+  .link_main {
+    width: 7.5rem;
+    text-align: center;
+    margin: 0.5rem auto;
+    &:hover {
+      border: none !important;
+    }
+  }
+  .theme {
+    margin: 0.5rem auto;
+  }
+}

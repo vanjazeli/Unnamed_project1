@@ -1,0 +1,42 @@
+//utilities
+@import "./utilities";
+
+//sections
+@import "./navbar";
+@import "./popup";
+@import "./hero";
+@import "./about";
+@import "./services";
+@import "./services2";
+@import "./signup";
+@import "./footer";
+
+//media queries
+@import "./mq_navbar";
+@import "./mq_hero";
+@import "./mq_about";
+@import "./mq_services";
+@import "./mq_services2";
+@import "./mq_signup";
+@import "./mq_footer";
+@import "./mq_utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  max-width: 2000px;
+  margin: auto;
+}
+
+body {
+  background: $black;
+  overflow-x: hidden;
+  position: relative;
+  transition: 300ms ease-in-out;
+}

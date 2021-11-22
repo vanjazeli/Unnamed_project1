@@ -1,0 +1,13 @@
+// mq navbar
+@media (max-width: 900px) {
+  #navbar {
+    .main_container {
+      #navbar_middle {
+        display: block;
+      }
+      #navbar_right {
+        display: none;
+      }
+    }
+  }
+}

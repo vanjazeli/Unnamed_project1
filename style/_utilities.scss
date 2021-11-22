@@ -1,0 +1,109 @@
+// utilities
+
+// colors
+$primary_color: #9518fc;
+$primary_color1: #623cdd;
+$secondary_color: #1904e5;
+$secondary_color1: #ce18fc;
+$light_grey: #f4f4f4;
+$dark_grey: #222;
+$black: #000;
+
+// links
+.link_main {
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  margin: 0 0.5rem;
+}
+.link_main1 {
+  color: $light_grey;
+  border-radius: 0;
+  transition: opacity 300ms ease-in-out;
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+}
+.link_main2 {
+  color: $light_grey;
+  background: linear-gradient(to right, $primary_color1, $secondary_color1);
+  background-size: 300%;
+  background-position: left;
+  transition-duration: 300ms;
+  position: relative;
+  &:hover,
+  &:focus {
+    background-position: right;
+  }
+}
+
+// container
+.main_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// text
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.7rem;
+}
+
+p {
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+// card
+.main_card {
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(to top right, $primary_color, $primary_color1);
+  text-align: center;
+  transition: 500ms;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// theme
+.theme {
+  width: 4rem;
+  height: 2rem;
+  display: block;
+  background-color: $primary_color;
+  border-radius: 50rem;
+  margin-left: 1.5rem;
+  margin-right: 2rem;
+  .theme_switch {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50rem;
+    background-color: $black;
+    margin: 0.25rem;
+    transition: 300ms ease-in-out;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.theme_text {
+  animation: 300ms color ease-in-out;
+  color: $light_grey;
+}
