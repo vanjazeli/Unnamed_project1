@@ -557,12 +557,13 @@ p {
 html {
   max-width: 2000px;
   margin: auto;
+  overflow-x: hidden;
 }
 
 body {
   background: #000;
-  overflow-x: hidden;
   position: relative;
+  overflow-x: hidden;
   -webkit-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
 }
